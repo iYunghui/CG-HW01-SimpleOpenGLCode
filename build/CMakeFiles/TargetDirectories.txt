@@ -1,0 +1,7 @@
+D:/university/Senior/CG/HW/HW1/sample_code/build/CMakeFiles/ALL_BUILD.dir
+D:/university/Senior/CG/HW/HW1/sample_code/build/CMakeFiles/ZERO_CHECK.dir
+D:/university/Senior/CG/HW/HW1/sample_code/build/thirdparty/glad/CMakeFiles/glad.dir
+D:/university/Senior/CG/HW/HW1/sample_code/build/thirdparty/imgui/CMakeFiles/imgui.dir
+D:/university/Senior/CG/HW/HW1/sample_code/build/thirdparty/stb/CMakeFiles/stb.dir
+D:/university/Senior/CG/HW/HW1/sample_code/build/thirdparty/tinyobjloader/CMakeFiles/tinyobjloader.dir
+D:/university/Senior/CG/HW/HW1/sample_code/build/src/CMakeFiles/Homework01.dir

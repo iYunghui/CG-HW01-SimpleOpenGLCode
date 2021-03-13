@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EC793B81-68E5-36B8-96DC-074255E79CEA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Homework01</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Homework01.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Homework01.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Homework01.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Homework01.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Homework01</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_if_different D:/software/GLFW/lib/cmake/glfw3/../../../bin/glfw3.dll D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/src/Shader D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Debug/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/resources D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Debug/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\Debug\glad.lib;..\thirdparty\imgui\Debug\imgui.lib;..\thirdparty\stb\Debug\stb.lib;..\thirdparty\tinyobjloader\Debug\tinyobjloader.lib;..\thirdparty\glad\Debug\glad.lib;D:\software\GLFW\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/university/Senior/CG/HW/HW1/sample_code/build/lib/Debug/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Debug/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level1</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_if_different D:/software/GLFW/lib/cmake/glfw3/../../../bin/glfw3.dll D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/src/Shader D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Release/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/resources D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Release/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\Release\glad.lib;..\thirdparty\imgui\Release\imgui.lib;..\thirdparty\stb\Release\stb.lib;..\thirdparty\tinyobjloader\Release\tinyobjloader.lib;..\thirdparty\glad\Release\glad.lib;D:\software\GLFW\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/university/Senior/CG/HW/HW1/sample_code/build/lib/Release/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/university/Senior/CG/HW/HW1/sample_code/build/bin/Release/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_if_different D:/software/GLFW/lib/cmake/glfw3/../../../bin/glfw3.dll D:/university/Senior/CG/HW/HW1/sample_code/build/bin/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/src/Shader D:/university/Senior/CG/HW/HW1/sample_code/build/bin/MinSizeRel/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/resources D:/university/Senior/CG/HW/HW1/sample_code/build/bin/MinSizeRel/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\MinSizeRel\glad.lib;..\thirdparty\imgui\MinSizeRel\imgui.lib;..\thirdparty\stb\MinSizeRel\stb.lib;..\thirdparty\tinyobjloader\MinSizeRel\tinyobjloader.lib;..\thirdparty\glad\MinSizeRel\glad.lib;D:\software\GLFW\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/university/Senior/CG/HW/HW1/sample_code/build/lib/MinSizeRel/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/university/Senior/CG/HW/HW1/sample_code/build/bin/MinSizeRel/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_FORCE_SILENT_WARNINGS;GLFW_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\university\Senior\CG\HW\HW1\sample_code\src;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glm;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\glad\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\imgui;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\stb\include;D:\university\Senior\CG\HW\HW1\sample_code\thirdparty\tinyobjloader\include;D:\software\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>		</Message>
+      <Command>setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_if_different D:/software/GLFW/lib/cmake/glfw3/../../../bin/glfw3.dll D:/university/Senior/CG/HW/HW1/sample_code/build/bin/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/src/Shader D:/university/Senior/CG/HW/HW1/sample_code/build/bin/RelWithDebInfo/Shader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\software\Cmake\bin\cmake.exe -E copy_directory D:/university/Senior/CG/HW/HW1/sample_code/resources D:/university/Senior/CG/HW/HW1/sample_code/build/bin/RelWithDebInfo/resources
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;..\thirdparty\glad\RelWithDebInfo\glad.lib;..\thirdparty\imgui\RelWithDebInfo\imgui.lib;..\thirdparty\stb\RelWithDebInfo\stb.lib;..\thirdparty\tinyobjloader\RelWithDebInfo\tinyobjloader.lib;..\thirdparty\glad\RelWithDebInfo\glad.lib;D:\software\GLFW\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/university/Senior/CG/HW/HW1/sample_code/build/lib/RelWithDebInfo/Homework01.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/university/Senior/CG/HW/HW1/sample_code/build/bin/RelWithDebInfo/Homework01.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\university\Senior\CG\HW\HW1\sample_code\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/university/Senior/CG/HW/HW1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\software\Cmake\bin\cmake.exe -SD:/university/Senior/CG/HW/HW1/sample_code -BD:/university/Senior/CG/HW/HW1/sample_code/build --check-stamp-file D:/university/Senior/CG/HW/HW1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\cmake\CompilerOptions.cmake;D:\university\Senior\CG\HW\HW1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/university/Senior/CG/HW/HW1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\software\Cmake\bin\cmake.exe -SD:/university/Senior/CG/HW/HW1/sample_code -BD:/university/Senior/CG/HW/HW1/sample_code/build --check-stamp-file D:/university/Senior/CG/HW/HW1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\cmake\CompilerOptions.cmake;D:\university\Senior\CG\HW\HW1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/university/Senior/CG/HW/HW1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\software\Cmake\bin\cmake.exe -SD:/university/Senior/CG/HW/HW1/sample_code -BD:/university/Senior/CG/HW/HW1/sample_code/build --check-stamp-file D:/university/Senior/CG/HW/HW1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\cmake\CompilerOptions.cmake;D:\university\Senior\CG\HW\HW1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/university/Senior/CG/HW/HW1/sample_code/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\software\Cmake\bin\cmake.exe -SD:/university/Senior/CG/HW/HW1/sample_code -BD:/university/Senior/CG/HW/HW1/sample_code/build --check-stamp-file D:/university/Senior/CG/HW/HW1/sample_code/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\cmake\CompilerOptions.cmake;D:\university\Senior\CG\HW\HW1\sample_code\cmake\PostBuildCommand.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\university\Senior\CG\HW\HW1\sample_code\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Model\Mesh.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Model\TextureFactory.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGLWindow.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\Detail\Set.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLBufferObject.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLException.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLShader.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLShaderProgram.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLVertexArrayObject.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLTexture.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\Compilers.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\Global.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\StringFormat\StringFormat.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\FileIO\Detail\Generals.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\FileIO\FileIn.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\Detail\Set-inl.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLShaderProgram-inl.hpp" />
+    <ClInclude Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\StringFormat\StringFormat-inl.hpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Main.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Model\Mesh.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Model\TextureFactory.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGLWindow.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLBufferObject.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLException.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLShader.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLShaderProgram.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLVertexArrayObject.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\OpenGL\OpenGLTexture.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\FileIO\Detail\Generals.cpp" />
+    <ClCompile Include="D:\university\Senior\CG\HW\HW1\sample_code\src\Utils\FileIO\FileIn.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\university\Senior\CG\HW\HW1\sample_code\build\ZERO_CHECK.vcxproj">
+      <Project>{54031117-739C-321E-A4B4-D6C1E02A3C75}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\university\Senior\CG\HW\HW1\sample_code\build\thirdparty\glad\glad.vcxproj">
+      <Project>{01DBB337-4E2F-3204-A36D-CB791848A2B0}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\university\Senior\CG\HW\HW1\sample_code\build\thirdparty\imgui\imgui.vcxproj">
+      <Project>{078DCAB2-44EA-3A6A-A443-8EA1F4906316}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\university\Senior\CG\HW\HW1\sample_code\build\thirdparty\stb\stb.vcxproj">
+      <Project>{1C217959-1D6E-3B6F-AB0F-E2E8A2B2C057}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\university\Senior\CG\HW\HW1\sample_code\build\thirdparty\tinyobjloader\tinyobjloader.vcxproj">
+      <Project>{F9DFF8D3-42FD-352A-BB43-28E067E3B563}</Project>
+      <Name>tinyobjloader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

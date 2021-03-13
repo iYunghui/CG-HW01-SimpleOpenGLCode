@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/university/Senior/CG/HW/HW1/sample_code/thirdparty/tinyobjloader/CMakeLists.txt
+  tiny_obj_loader.cc
+d:\university\senior\cg\hw\hw1\sample_code\thirdparty\tinyobjloader\include\tiny_obj_loader.h(1226): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 請參閱 'sscanf' 的宣告
+d:\university\senior\cg\hw\hw1\sample_code\thirdparty\tinyobjloader\include\tiny_obj_loader.h(1253): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 請參閱 'sscanf' 的宣告
+  tinyobjloader.vcxproj -> D:\university\Senior\CG\HW\HW1\sample_code\build\thirdparty\tinyobjloader\Release\tinyobjloader.lib
